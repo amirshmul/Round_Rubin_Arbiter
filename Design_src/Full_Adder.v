@@ -7,5 +7,6 @@ module Full_Adder(
     
     assign s = a^b^c_in;
     assign c_out = a&b | c_in&(a^b);
+    // This is good for the practise, but ofcourse we are using the "+" operator in such a case...
     
 endmodule
